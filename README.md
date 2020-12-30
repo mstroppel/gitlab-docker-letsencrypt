@@ -29,6 +29,11 @@ Update this file with your preferences.
 CONTAINER_NAME=my-gitlab-container
 
 #
+# Tag of gitlab/gitlab-ce image to use.
+#
+GITLAB_IMAGE_TAG=latest
+
+#
 # Path where your Gitlab files will be located
 #
 GITLAB_DATA_PATH=/data/gitlab/

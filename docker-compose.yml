@@ -2,7 +2,7 @@ version: "3"
 
 services:
   gitlab-letsencrypt:
-    image: 'gitlab/gitlab-ce:latest'
+    image: gitlab/gitlab-ce:${GITLAB_IMAGE_TAG}
     container_name: ${CONTAINER_NAME}
     restart: always
     hostname: ${MAIN_DOMAIN}
